@@ -1,6 +1,6 @@
 .search-container{
     width: 100%;
-    height: 80px;
+    height: 100px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -13,12 +13,18 @@
 
 .search-container .logo{
     margin-left: 50px;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 25px;
 }
 
 .search-container .middle{
-    width: 150px;
+    width: 130px;
     display: flex;
     justify-content: space-between;
+}
+
+.search-container .middle mat-icon{
+    font-size: 20px;
 }
 
 .search-container .right{
@@ -30,6 +36,8 @@
 
 .search-container .right h4{
     margin-left: 7px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.08rem;
 }
 
 /* .search-container .logo{
